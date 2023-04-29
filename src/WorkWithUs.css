@@ -1,0 +1,173 @@
+.work-with-us {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 25vh;
+  margin: 0 25%;
+  opacity: 0;
+  transform: translateY(1%);
+  animation: fade-in 1s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(1%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.work-with-us .title {
+  width: 100%;
+  font-weight: 300;
+  margin-bottom: 3%;
+}
+
+.work-with-us .text {
+  width: 100%;
+  font-weight: 300;
+}
+
+.work-with-us .input-div label {
+  font-size: 2vh;
+  font-weight: 500;
+}
+
+.work-with-us .input-div label span {
+  font-style: italic;
+  font-weight: 300;
+  opacity: 0.7;
+}
+
+.work-with-us .input-div {
+  width: 100%;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+.work-with-us .input-div input {
+  padding-left: 1%;
+  height: 7vh;
+  color: rgb(83, 83, 83);
+  font-size: 2.5vh;
+  font-weight: 300;
+  letter-spacing: 0.1vh;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.cover-letter-div textarea {
+  color: rgb(83, 83, 83);
+  font-size: 2.5vh;
+  padding-left: 1%;
+  height: 20vh;
+  font-weight: 400;
+  letter-spacing: 0.1vh;
+  resize: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.work-with-us .resume-div {
+  width: 100%;
+}
+
+.work-with-us .resume-div .last-text {
+  font-weight: 300;
+}
+
+.work-with-us .resume-div .last-text span {
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.instagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.work-with-us .choose-file {
+  font-size: 2.5vh;
+}
+
+.work-with-us .upload span {
+  margin-left: 1%;
+}
+
+.work-with-us .apply-btn {
+  background: transparent;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: white;
+  border: 1px solid white;
+  width: 5rem;
+  height: 2rem;
+  letter-spacing: 0.3rem;
+  transition-duration: 0.2s;
+}
+
+.work-with-us .apply-btn:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+
+.work-with-us .apply-btn:active {
+  color: white;
+  background: transparent;
+  border: none;
+}
+
+.insta-logo {
+  border-radius: 40%;
+  background-color: white;
+  padding: 0.1%;
+}
+
+.work-with-us .instagram ion-icon {
+  z-index: 5;
+  border-radius: 50%;
+  padding: 0.7vh;
+  background-color: white;
+  color: black;
+}
+
+.work-with-us .instagram p {
+  color: white;
+  margin-top: 2%;
+  font-size: small;
+}
+
+.work-with-us .footer {
+  z-index: 1;
+  left: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 8rem;
+  flex-direction: column;
+}
+
+.work-with-us .footer .instagram:hover {
+  cursor: pointer;
+}
+@media (max-width: 1101px) {
+  .footer .instagram {
+    display: none;
+  }
+}

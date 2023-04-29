@@ -1,0 +1,275 @@
+.navbar {
+    color: white;
+    z-index: 10;
+}
+
+.navbar .navbar-menu ul li{
+    user-select: none;
+}
+
+@media (max-width: 1360px) {
+    .toggle-button{
+        display: none;
+    }
+
+    .navbar {
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        height: 13%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .scrolled {
+        position: absolute;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 60%, transparent);
+        bottom: 0;
+    }
+
+    .navbar .navbar-logo {
+        font-weight: 500;
+        font-size: 450%;
+        letter-spacing: 1.2vh;
+        font-weight: 700;
+    
+    }
+
+    .navbar .navbar-menu ul {
+        list-style: none;
+        display: flex;
+        white-space: nowrap;
+    }
+
+    .navbar .navbar-menu ul li {
+        margin-left: 20px;
+        font-size: 100%;
+        font-weight: 300;
+    }
+
+    .navbar .my-link {
+        text-decoration: none;
+        color: white;
+    }
+
+    .navbar .my-link:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1223px) {
+
+    .toggle-button{
+        display: none;
+    }
+
+    .navbar {
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        height: 25%;
+        display: flex;
+        
+    }
+
+    .scrolled {
+        position: absolute;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 60%, transparent);
+        bottom: 0;
+    }
+
+    .navbar .navbar-logo {
+        font-weight: 500;
+        font-size: 450%;
+        letter-spacing: 1.2vh;
+        font-weight: 700;
+    
+        margin: 0 0 0 10%;
+        height: 90%;
+        
+    }
+
+    .navbar .navbar-menu {
+        
+        position: relative;
+        bottom: -30%;
+        left: -10%;
+        z-index: 1;
+    }
+
+    .navbar .navbar-menu ul {
+        list-style: none;
+        display: flex;
+        white-space: nowrap;
+    }
+
+    .navbar .navbar-menu ul li {
+        margin-left: 20px;
+        font-size: 100%;
+    }
+
+    .navbar .my-link {
+        text-decoration: none;
+        color: white;
+    }
+
+    .navbar .my-link:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 990px) {
+
+    .navbar {
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        height: 18%;
+        display: flex;
+        
+    }
+
+    .scrolled {
+        position: absolute;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 60%, transparent);
+        bottom: 0;
+    }
+
+    .navbar .navbar-logo {
+        position: absolute;
+        font-weight: 700;
+        font-size: 6vw; 
+        letter-spacing: 0.8vw; 
+        height: 90%;
+        left: 5%;
+      }
+      
+
+    .navbar .navbar-menu {
+        
+        position: fixed;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 100%;
+        font-size: 6vh;
+        top: 0;
+        line-height: 11.5vh;
+        z-index: 5;
+        overflow-y: auto;
+    }
+
+    .navbar-menu-hidden {
+        display: none;
+    }
+    
+
+
+    .toggle-button{
+        z-index: 10;
+        display: block;
+        position: absolute;
+        right: 5%;
+        background: transparent;
+        border: none;
+    }
+
+    .toggle-button:hover {
+        cursor: pointer;
+        transform: scale(1.03);
+    }
+
+    .toggle-button ion-icon {
+        color: white;
+        transition: transform 0.4s ease-in-out;
+        transform: \$isNavbarVisible \? rotate(0deg) \: rotate(180deg);
+
+    }
+
+    .navbar-menu-vertical {
+        display: flex;
+        
+    }
+
+    .navbar .navbar-menu ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        white-space: nowrap;
+    }
+
+    .navbar .navbar-menu ul li {
+        margin-left: 20px;
+        font-size: 100%;
+    }
+
+    .navbar .my-link {
+        text-decoration: none;
+        color: white;
+    }
+
+    .navbar .my-link:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1360px) {
+    .toggle-button{
+        display: none;
+    }
+
+    .navbar {
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        height: 7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .scrolled {
+        position: absolute;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 60%, transparent);
+        bottom: 0;
+    }
+
+    .navbar .navbar-logo {
+        position: absolute;
+        font-weight: 700;
+        font-size: 5rem; 
+        letter-spacing: 0.8vw; 
+        height: 90%;
+        left: 5%;
+    }
+
+    .navbar-menu {
+        position: absolute;
+        right: 5%;
+        top: 2rem;
+    }
+
+    .navbar .navbar-menu ul {
+        list-style: none;
+        display: flex;
+        white-space: nowrap;
+    }
+
+    .navbar .navbar-menu ul li {
+        margin-left: 20px;
+        font-size: 100%;
+    }
+
+    .navbar .my-link {
+        text-decoration: none;
+        color: white;
+    }
+
+    .navbar .my-link:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+}

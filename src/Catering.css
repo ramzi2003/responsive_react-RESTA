@@ -1,0 +1,12 @@
+.catering {
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catering p{
+    position: relative;
+    top: 30vh;
+}

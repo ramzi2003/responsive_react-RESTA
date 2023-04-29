@@ -1,0 +1,95 @@
+.HoursLocation {
+  width: 100%;
+  position: absolute;
+  margin-top: 15%;
+  opacity: 0;
+  transform: translateY(1%);
+  animation: fade-in 1s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(1%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 7vh;
+  color: white;
+  letter-spacing: 0.1cm;
+  font-weight: 300;
+}
+
+.Address {
+  text-align: center;
+  cursor: pointer;
+  font-size: medium;
+  color: white;
+  text-decoration: under;
+  text-decoration-color: white;
+  text-decoration-line: underline;
+  margin-top: 2%;
+}
+
+.Address p {
+  line-height: 1.5vh;
+  font-weight: 300;
+}
+
+.Schedule {
+  text-align: center;
+  font-size: medium;
+  margin-top: 5%;
+  color: white;
+  font-weight: 300;
+}
+
+.instagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.insta-logo {
+  border-radius: 40%;
+  background-color: white;
+  padding: 0.1%;
+}
+
+.instagram ion-icon {
+  z-index: 5;
+  border-radius: 50%;
+  padding: 0.7vh;
+  background-color: white;
+  color: black;
+}
+
+.instagram p {
+  color: white;
+  margin-top: 2%;
+  font-size: small;
+}
+
+.footer {
+  z-index: 1;
+  left: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+  color: white;
+  height: 8rem;
+  flex-direction: column;
+}
+
+.footer .instagram:hover {
+  cursor: pointer;
+}

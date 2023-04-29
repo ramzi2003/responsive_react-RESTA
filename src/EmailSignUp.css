@@ -1,0 +1,132 @@
+.all-display {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    height: 100vh;
+    top: 0;
+    opacity: 0;
+    transform: scale(0.3);
+    animation: fade-in .2s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+    transform: translateY(0);
+  } 
+  to {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateY(2%);
+  }
+}
+
+.pop-Up{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 25vh;
+    margin: 0 25%;
+    backdrop-filter: opacity(0.5);
+}  
+
+ 
+.title{
+    width: 100%;
+    font-weight: 300;
+    margin-bottom: 3%;
+    font-size:  30px;
+    color: white;
+  
+}
+
+.pop-Up .box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1%;
+}
+
+.labelFormat{
+    font-size: 2vh;
+    font-weight: 500;
+}
+
+.W{
+    font-style: italic;
+    font-weight: 300;
+    opacity: 0.7;   
+}  
+
+
+
+.firstName input{
+    padding-left: 1%;
+    height:7vh;
+    color: rgb(83, 83, 83);
+    font-size: 2.5vh;
+    font-weight: 300;
+    letter-spacing: .1vh;
+}
+
+.textBox{ 
+     width: 100%;
+     margin-top: 1%;
+     display: flex;
+     flex-direction: column;
+}
+  
+.close-button{
+    position: absolute;
+    top: 2%;
+    right: 1.5%;
+    background: transparent;
+    color: #fff;  
+    border: none;
+    cursor: pointer;
+    transition-duration: .2s;
+  }
+  
+  .close-button:hover {
+    opacity: 0.7;
+  } 
+
+  .close-button ion-icon {
+    font-size: 3rem;
+  }
+
+
+  .button{
+    margin-top: 5%;
+  }
+
+  .button button{
+    background: transparent;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: white;
+    border: 1px solid white;
+    width: 5rem;
+    height: 2rem;
+    letter-spacing: 0.1rem;
+    transition-duration: .2s;
+  }
+
+  .button button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+  }
+
+  .button button:active{
+    color: white;
+    background: transparent;
+    border: none;
+  }
+  
+
+  

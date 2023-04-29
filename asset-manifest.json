@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/responsive_react-RESTA/static/css/main.2658d792.css",
+    "main.js": "/responsive_react-RESTA/static/js/main.7aa01ac3.js",
+    "static/js/787.aab8bd84.chunk.js": "/responsive_react-RESTA/static/js/787.aab8bd84.chunk.js",
+    "static/media/dinnerMenu.jpg": "/responsive_react-RESTA/static/media/dinnerMenu.17235e77e4945c679082.jpg",
+    "static/media/picSix.jpg": "/responsive_react-RESTA/static/media/picSix.b8ee7e0f78dd80edd09d.jpg",
+    "static/media/aboutPic.jpg": "/responsive_react-RESTA/static/media/aboutPic.41c232bb18257e5eb4c7.jpg",
+    "static/media/brunchMenu.jpg": "/responsive_react-RESTA/static/media/brunchMenu.c95624f5e9ff324437cd.jpg",
+    "static/media/picTwo.jpeg": "/responsive_react-RESTA/static/media/picTwo.ee0db2e7f0e6a84d3d48.jpeg",
+    "static/media/lunchMenu.jpeg": "/responsive_react-RESTA/static/media/lunchMenu.9adf39af4ecd8af5a76d.jpeg",
+    "static/media/picFive.jpeg": "/responsive_react-RESTA/static/media/picFive.aebf237e7267e63dd5fd.jpeg",
+    "static/media/picFour.png": "/responsive_react-RESTA/static/media/picFour.6b856c46708cbbb07351.png",
+    "static/media/picOne.jpeg": "/responsive_react-RESTA/static/media/picOne.c4a80520c708cdb2595d.jpeg",
+    "static/media/picThree.jpg": "/responsive_react-RESTA/static/media/picThree.e65c6a01e60194e7a409.jpg",
+    "index.html": "/responsive_react-RESTA/index.html",
+    "main.2658d792.css.map": "/responsive_react-RESTA/static/css/main.2658d792.css.map",
+    "main.7aa01ac3.js.map": "/responsive_react-RESTA/static/js/main.7aa01ac3.js.map",
+    "787.aab8bd84.chunk.js.map": "/responsive_react-RESTA/static/js/787.aab8bd84.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2658d792.css",
+    "static/js/main.7aa01ac3.js"
+  ]
+}

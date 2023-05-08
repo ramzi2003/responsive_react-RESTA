@@ -68,18 +68,6 @@ function WorkWithUs() {
           Apply{" "}
         </button>
       </div>
-      <div className="footer">
-        <div
-          className="instagram"
-          onClick={() =>
-            (window.location.href =
-              "https://instagram.com/sh_ramziiii?igshid=ZDdkNTZiNTM=")
-          }
-        >
-          <ion-icon name="logo-instagram" size="large"></ion-icon>
-        </div>
-        <p>MADE BY RAMZI</p>
-      </div>
     </div>
   );
 }

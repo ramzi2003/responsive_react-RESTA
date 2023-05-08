@@ -171,3 +171,18 @@ input[type="number"]::-webkit-inner-spin-button {
     display: none;
   }
 }
+
+
+@media (max-width: 990px) {
+  .work-with-us {
+    margin: 4%;
+  }
+
+  .work-with-us .title {
+    font-size: 100%;
+  }
+
+  .work-with-us .text{
+    font-size: 90%;
+  }
+}

@@ -93,3 +93,15 @@
 .footer .instagram:hover {
   cursor: pointer;
 }
+
+@media (max-width: 990px){
+  .HoursLocation .title{
+    font-size: 90%;
+  }
+
+  .HoursLocation  p {
+    font-size: 90%;
+  }
+
+  
+}

@@ -83,3 +83,14 @@
 .footer .instagram:hover {
   cursor: pointer;
 }
+
+@media (max-width: 990px) {
+  .menus {
+    position: relative;
+    top: 10vh;
+  }
+
+  .menus .menu-select img {
+    width: 90%;
+  }
+}

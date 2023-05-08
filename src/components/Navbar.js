@@ -30,20 +30,26 @@ function Navbar() {
 
   const toggleEmailSignUp = () => {
     setIsEmailSignUpVisible(!isEmailSignUpVisible);
-
+  
     if (!isEmailSignUpVisible) {
+      setIsNavbarVisible(false);
       document.body.style.overflowY = 'hidden';
     } else {
+      setIsNavbarVisible(true);
+      
       document.body.style.overflowY = 'auto';
     }
   };
+  
 
   const toggleReservations = () => {
     setIsReservationsVisible(!isReservationsVisible);
 
     if (!isReservationsVisible) {
+      setIsNavbarVisible(false);
       document.body.style.overflowY = 'hidden';
     } else {
+      setIsNavbarVisible(true);
       document.body.style.overflowY = 'auto';
     }
   };

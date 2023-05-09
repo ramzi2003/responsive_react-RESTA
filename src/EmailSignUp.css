@@ -129,4 +129,13 @@
   }
   
 
+@media (max-width: 990px) {
+  .pop-Up {
+    margin: 0 4%;
+  }
+
+  .pop-Up .title {
+    font-size: 90%;
+  }
+}
   

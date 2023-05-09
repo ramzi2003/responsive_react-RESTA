@@ -166,5 +166,13 @@
     border: none;
   }
 
+  @media (max-width: 990px) {
+    .reservation {
+      margin: 0 4%;
+    }
 
+    .reservation .title1 {
+      font-size: 110%;
+    }
+  }
   
